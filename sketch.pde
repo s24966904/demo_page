@@ -3,9 +3,9 @@ PImage img;
 
 
 void setup() {
-  size(1266,1266);
-  img = loadImage("venus.jpg");
-  img.resize(500,500);
+  size(1000,1000);
+  img = loadImage("venus1.jpg");
+  img.resize(1000,1000);
 }
 
 void draw() {
