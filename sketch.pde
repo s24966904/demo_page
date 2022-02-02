@@ -3,16 +3,14 @@ PImage img;
 
 
 void setup() {
-  size(1000,1000);
-  img = loadImage("venus1.jpg");
-  img.resize(1000,1000);
-  image(img,0,0);
+  size(1233,1233);
+  img = loadImage("venus.jpg");
 }
 
 void draw() {
   background(255);
   
-  fill(162+mouseX/20,109+mouseX/20,55+mouseX/20);
+  fill(random(0,200),random(0,200),random(0,200));
   noStroke();
   
   float tiles = mouseX/10;
