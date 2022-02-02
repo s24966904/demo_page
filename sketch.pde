@@ -11,7 +11,7 @@ void setup() {
 void draw() {
   background(255);
   
-  fill(0);
+  fill(162+mouseX/20,109+mouseX/20,55+mouseX/20);
   noStroke();
   
   float tiles = mouseX/10;
